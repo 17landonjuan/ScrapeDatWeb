@@ -1,0 +1,37 @@
+<a class="articleURL" href="{{ this.articleURL }}">
+    <div id="picture">
+        <img src="{{ this.imgURL }}">
+    </div>
+</a>
+<div id=">
+    <img src="" />
+    <div id=" buttons">
+    <button id="next" data-id="{{ this._id }}">Next</button>
+</div>
+</div>
+<a class="articleURL" href="{{ this.articleURL }}">
+    <div id="content">
+        <h2>{{ this.title }}</h2>
+        <p>{{ this.synopsis }}</p>
+    </div>
+</a>
+<div id=">
+    <div class=" comments">
+    <h3>Post a Comment:</h3>
+    <input id="comment" type="text" name="comment" placeholder="Type your comment here...">
+    <button id="post" data-id="{{ this._id }}">Post</button>
+</div>
+<img src="" />
+</div>
+<div id=>
+    <div class="comments">
+        <h3>Previously Left Comments:</h3>
+        <div id="comment-holder">
+            {{#each this.comments as |value key|}}
+            <p><span class="number">{{ addOne key }}</span> {{ value.text }} <a href="#" class="remove"
+                    data-id="{{ value._id }}">X</a></p>
+            {{/each}}
+        </div>
+    </div>
+    <img src="" />
+</div>

@@ -1,0 +1,29 @@
+{
+  "name": "scrapedatweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/17landonjuan/ScrapeDatWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/17landonjuan/ScrapeDatWeb/issues"
+  },
+  "homepage": "https://github.com/17landonjuan/ScrapeDatWeb#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "engine": "^1.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongojs": "^2.6.0",
+    "mongoose": "^5.7.4",
+    "request": "^2.88.0",
+    "view": "^1.1.1"
+  }
+}
